@@ -98,4 +98,9 @@
 --count 
 29)select count(id) from [tablename];
 
+--sum
+30)select sum(col) from [tablename];
+--average
+31)select avg(col) from [tablename];
+
 
