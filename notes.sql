@@ -75,9 +75,14 @@
    
 
    --serch via row
-19)select * from [tablename] where row1=?;  
-20)select * from [tablename] where row1=? AND rol2=?;
-21)select * from [tablename] where row1=? OR rol2=?;
-22)select * from [tablename] where not row1= ?;
+19)select * from [tablename] where col1=?;  
+20)select * from [tablename] where col1=? AND rol2=?;
+21)select * from [tablename] where col1=? OR rol2=?;
+22)select * from [tablename] where not col1= ?;
+
+   --order by 
+23)select * from [tablename] order by col;
+24)select * from [tablename] order by col desc;
+25)select * from [tablename] order by col asc;
 
 
