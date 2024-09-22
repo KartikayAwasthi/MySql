@@ -1,3 +1,10 @@
+->sql = structured query language
+->sql is case insensitive language
+->primary key = 
+
+
+
+
 ===All commands related to MySql databases===
 ---to show databases:
 1)show databases;
@@ -37,3 +44,12 @@
 
   --drop column
 11)alter table [table name] drop column [col name];
+
+---to add values to table
+12)insert into [tablename] (cols) values (values); //if we know or dont know the order of columns
+   insert into [tablename] values (values); //if we know the exact order of column
+   insert into [tablename] (cols) values (values),(values),(values);
+
+
+---to show all data in table
+13)select * from [tablename];
