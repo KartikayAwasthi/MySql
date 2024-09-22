@@ -104,3 +104,30 @@
 31)select avg(col) from [tablename];
 
 
+=======String Function============
+1)select length("hello, i am kartikay");//length =20 --space is also count 
+2)select name , length(name) from [tablename];
+3)select name "name" , length(name);
+
+--concatination of two string 
+4)select concat("str1","str2");
+
+---lower case and upper case
+5)select lcase(str);
+6)select ucase(str);
+
+----subsrting
+7)select subsrting("i am kartikay",1,6);
+
+---trim
+8)select trim("   hello ");
+
+
+----reverse the string
+9)select reverse("kartikay");
+
+
+---comapre string
+10)strcmp("golu","monu");//return -1,0,+1
+
+
