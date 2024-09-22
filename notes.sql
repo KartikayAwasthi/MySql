@@ -76,13 +76,19 @@
 
    --serch via row
 19)select * from [tablename] where col1=?;  
-20)select * from [tablename] where col1=? AND rol2=?;
-21)select * from [tablename] where col1=? OR rol2=?;
+20)select * from [tablename] where col1=? AND col1=?;
+21)select * from [tablename] where col1=? OR col2=?;
 22)select * from [tablename] where not col1= ?;
 
    --order by 
 23)select * from [tablename] order by col;
 24)select * from [tablename] order by col desc;
 25)select * from [tablename] order by col asc;
+
+
+--if we want only few rows
+26)select * from [tablename] limit 3;
+--if we want few rows but skip some rows
+27)select * from [tablename] limit 3 offset 2;
 
 
