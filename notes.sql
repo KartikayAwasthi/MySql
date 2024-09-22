@@ -91,4 +91,11 @@
 --if we want few rows but skip some rows
 27)select * from [tablename] limit 3 offset 2;
 
+--update column value 
+28)update [tablename] set [col] where id=?;
+
+
+--count 
+29)select count(id) from [tablename];
+
 
