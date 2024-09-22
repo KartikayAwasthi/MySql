@@ -131,3 +131,35 @@
 10)strcmp("golu","monu");//return -1,0,+1
 
 
+---currentdate
+1)select curdate();
+
+mysql> select curdate();
++------------+
+| curdate()  |
++------------+
+| 2024-09-23 |
++------------+
+
+---current time
+2)select curtime();
+
+mysql> select curtime();
++-----------+
+| curtime() |
++-----------+
+| 00:12:37  |
++-----------
+
+
+--current date and time
+3)mysql> select now();
++---------------------+
+| now()               |
++---------------------+
+| 2024-09-23 00:14:34 |
++---------------------+
+
+
+
+
