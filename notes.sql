@@ -53,3 +53,31 @@
 
 ---to show all data in table
 13)select * from [tablename];
+
+
+--update table
+14)update [tablename] set col1=val1 , col2=val2 , col3=val3 where id=?;
+
+
+---delete from table
+15)delete from [tablename] where id=?;
+
+
+---select 
+   --all rows from table
+16)select * from [tablename];
+   --specific row from table
+17)select col1,col2 from [tablename];
+
+   --alias 
+18)select col1 as name1 , col2 as name2 from [tablename] tablename1;
+   select col1 "name2" , col2 "name2" from [tablename] tablename1;
+   
+
+   --serch via row
+19)select * from [tablename] where row1=?;  
+20)select * from [tablename] where row1=? AND rol2=?;
+21)select * from [tablename] where row1=? OR rol2=?;
+22)select * from [tablename] where not row1= ?;
+
+
